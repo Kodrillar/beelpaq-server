@@ -1,6 +1,9 @@
 {
     "server":{
-        "port": "PORT"
+        "port": "PORT",
+        "astra-client-id":"ASTRA_CLIENT_ID",
+        "astra-client-secret": "ASTRA_CLIENT_SECRET",
+        "jwt-secret":"JWT_SECRET"
 
     }
     

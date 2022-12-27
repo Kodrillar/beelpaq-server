@@ -4,18 +4,18 @@ import appServer from '../../server';
 
 let server:Server;
 
-describe('GET /api/v1', ()=>{
+describe('GET /api/v1 (index handler)', ()=>{
 
     beforeEach(()=>{
         server = appServer()
 
     });
 
-    afterEach(  ()=>{
+    afterEach(()=>{
        server.close()
     })
     
-    it('index handler status code should be 200',async() => {
+    it('status code should be 200',async() => {
 
     const request =  supertest(server);
     const response = await request.get('/api/v1');

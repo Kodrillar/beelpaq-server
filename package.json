@@ -4,6 +4,7 @@
   "description": "Server for Beelpaq mobile app",
   "main": "dist/server.js",
   "scripts": {
+    "start":"ts-node server",
     "dev": "nodemon server.ts",
     "test": "jest --detectOpenHandles --verbose"
   },

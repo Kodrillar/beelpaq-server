@@ -1,7 +1,7 @@
-name: Tests
+name: Beelpaq CI
 on: 
   push:
-    branches:[master]
+    branches: [master]
 jobs:
   run-test:
     runs-on: [ubuntu-latest]

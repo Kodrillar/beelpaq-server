@@ -1,0 +1,16 @@
+name: Tests
+on: 
+  push:
+    branches:[master]
+jobs:
+  run-test:
+    runs-on:[ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Node js Setup
+          uses: actions/setup-node@v2
+            with:
+              node-version: 18.10.0
+      - run: npm test
+      
+    

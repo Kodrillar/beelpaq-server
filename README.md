@@ -1,4 +1,4 @@
-<a href="https://github.com/Kodrillar/Intola/actions"><img src="https://github.com/Kodrillar/beelpaq-server/workflows/Beelpaq CI/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/Kodrillar/beelpaq-server/actions"><img src="https://github.com/Kodrillar/beelpaq-server/workflows/Beelpaq CI/badge.svg" alt="Build Status"></a>
 
 # Beelpaq Server
 

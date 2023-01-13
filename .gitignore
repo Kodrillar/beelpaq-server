@@ -3,3 +3,4 @@ dist
 .env
 config/local.json
 coverage
+beelpaq-service-account.json
